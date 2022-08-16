@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle extends Form {
     private int lenght;
     private int width;
     private int perimeter;

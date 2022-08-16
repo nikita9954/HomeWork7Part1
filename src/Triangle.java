@@ -1,9 +1,9 @@
-public class Triangle {
+public class Triangle extends Form {
     private int radius;
     private int p;
-    private int firstSide;
-    private int secondSide;
-    private int thirdSide;
+    private int firstSide=30;
+    private int secondSide=15;
+    private int thirdSide=10;
     private int squareTriangle;
     private int perimeter;
 
@@ -54,6 +54,7 @@ public class Triangle {
         perimeter=0;
         perimeter=firstSide+secondSide+thirdSide;
         System.out.println("Периметр треугольника равен сумме его сторон "+perimeter);
+
     }
 
 }

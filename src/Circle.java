@@ -1,4 +1,4 @@
-public class Circle {
+public class Circle extends Form {
     private int p;
     private int radius;
     private int square;
@@ -31,5 +31,6 @@ public class Circle {
         perimetr=radius*(p*2);
         System.out.println("Периметр круга равен числа пи умноженному на 2 умноженого на радиус "+perimetr );
     }
+
 
 }

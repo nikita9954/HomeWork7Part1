@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-         Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         /*Triangle triangle=new Triangle();
         triangle.setRadius(scanner.nextInt());
         triangle.getRadius();
@@ -28,7 +28,44 @@ public class Main {
         circle.getP();
         circle.findPerimetr();
         circle.findSquare();*/
+
+        Form Form[] = new Form[5];
+        for (int i = 0; i < 5; i++) {
+            Form[0] = new Triangle() {
+                @Override
+                void findPerimeter() {
+                    super.findPerimeter();
+                }
+
+            };
+            Form[1] = new Circle() {
+                @Override
+                void findPerimetr() {
+                    super.findPerimetr();
+                }
+            };
+            Form[2] = new Rectangle() {
+                @Override
+                void findPerimeter() {
+                    super.findPerimeter();
+                }
+            };
+            Form[3] = new Triangle() {
+                @Override
+                void findPerimeter() {
+                    super.findPerimeter();
+                }
+            };
+            Form[4] = new Triangle() {
+                @Override
+                void findPerimeter() {
+                    super.findPerimeter();
+                }
+            };
+        }
     }
-
-
 }
+
+
+
+
