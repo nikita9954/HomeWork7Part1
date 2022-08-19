@@ -1,2 +1,2 @@
-public  class Form  {
+public  class Form {
 }
